@@ -9,7 +9,7 @@ const createPdf = () => {
     spaceInfo.address = document.getElementById('address').value
     spaceInfo.description = document.getElementById('desc').value
     spaceInfo.amount = document.getElementById('amount').value
-    var newWindow = window.open('./index.html');
+    var newWindow = window.open('./HTML_ CSS_index.html');
     data.push(spaceInfo)
     localStorage.setItem('data_to_print', JSON.stringify(data))
 }
